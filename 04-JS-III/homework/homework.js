@@ -227,15 +227,15 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
-  var bank = [];
+  var banco = [];
   for (i = 0; i < 10; i++) {
     if (i === 5) continue;
     else {
       numero = numero + 2;
-      bank.push(numero);
+      banco.push(numero);
     }
   }
-  return bank;
+  return banco;
 }
 
 
